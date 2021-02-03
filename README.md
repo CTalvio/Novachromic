@@ -10,8 +10,8 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 @import url('https://ctalvio.github.io/Novachromic/default_style.css');
 ```
 
-![six](screenshots/6.png)
-![five](screenshots/5.png)
+![one](screenshots/one.png)
+![two](screenshots/two.png)
 
 ## Features
 - Themes **EVERYTHING**
@@ -55,11 +55,10 @@ This is now integrated into the theme and requires no additional import line, an
 
 ## Screenshots
 
-![one](screenshots/1.png)
-![two](screenshots/2.png)
-![four](screenshots/4.png)
-![seven](screenshots/7.png)
-![three](screenshots/3.png)
+![three](screenshots/three.png)
+![four](screenshots/four.png)
+![five](screenshots/five.png)
+![six](screenshots/six.png)
 
 
 ## Using with reverse proxy
