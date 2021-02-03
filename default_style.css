@@ -1,12 +1,9 @@
 @import url('https://ctalvio.github.io/Monochromic/default_style.css');
 @import url('https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css');
 @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
-:root {--accent: 255, 255, 255;}
-:root {--rounding: 0px;}
 
-.paper-icon-button-light:hover {
-  background-color: rgba(var(--accent), 0.55) !important;
-}
+:root {--accent: 150, 150, 255;}
+:root {--rounding: 0px;}
 
 /*Theme the library scan progress bar*/
 progress {
@@ -57,26 +54,6 @@ progress::-webkit-progress-value {
 .pageTitleWithDefaultLogo {
     background-image: url(../../jellyfin/web/assets/img/banner-dark.png);
 }
-.paper-icon-button-light:hover,
-.raised.homeLibraryButton:hover,
-.button-flat:hover,
-.playstatebutton-icon-played,
-.ratingbutton-icon-withrating,
-.paper-icon-button-light:hover:not(:disabled),
-.emby-tab-button:hover,
-.selectLabelFocused,
-.inputLabelFocused,
-.textareaLabelFocused,
-.buttonActive,
-.button-link,
-.emby-tab-button-active,
-.toast,
-.cardText,
-.paperListLabel,
-#scheduledTasksPage span,
-.raised.homeLibraryButton:hover {
-  color: black !important;
-}
 
 .raised.homeLibraryButton {
   background: rgba(255, 255, 255, 0.8) !important;
@@ -88,16 +65,12 @@ progress::-webkit-progress-value {
 .countIndicator {
   background: rgba(var(--accent),0.8);
 }
-.backgroundContainer,
-.formDialogHeader,
-.formDialogFooter {
-    background-color: rgba(var(--accent),0.15) !important;
-}
+
 .button-flat:hover {
-	background: rgba(var(--accent),0.25);
+	background: rgba(var(--accent),0.55);
 }
 .paper-icon-button-light:hover {
-  background-color: rgba(var(--accent),0.25) !important;
+  background-color: rgba(var(--accent),0.55) !important;
 }
 
 .navMenuOption-selected {
@@ -137,6 +110,25 @@ a[data-role="button"] {
   filter: blur(22px) saturate(95%) contrast(15%) brightness(155%);
 }
 
+.textareaLabelUnfocused,
+.paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
+.button-flat:hover,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused,
+.buttonActive,
+.button-link,
+.emby-tab-button-active,
+.toast,
+.cardText,
+.paperListLabel,
+#scheduledTasksPage span,
+.raised.homeLibraryButton:hover,
 body,
 h1,
 h2,
@@ -152,7 +144,7 @@ h4,
 .playedIndicator,
 .paper-icon-button-light {
     text-shadow: none !important;
-    color: black;
+    color: black !important;
 }
 
 .playedIndicator, .innerCardFooter {
