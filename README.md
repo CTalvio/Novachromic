@@ -1,7 +1,7 @@
 # Novachromic
 My third theme for Jellyfin media server, part of the "chromic" family. While a separate theme, it is built on top of my first theme, Monochromic. Therefore, please open any issues over there. Novachromic is essentially Monochromic, but with another layer of overrides on top. This makes maintenance easier.
 
-Check out my other themes, [Kaleidochromic](https://github.com/CTalvio/Kaleidochromic), if you are looking for something a bit more bright and colorful, or [Monochromic](https://github.com/CTalvio/Monochromic), if you are looking for something a bit more dark and muted.
+Check out my other themes, [Kaleidochromic](https://github.com/CTalvio/Kaleidochromic), if you are looking for something a bit more colorful, or [Monochromic](https://github.com/CTalvio/Monochromic), if you are looking for something dark and muted.
 
 To use the theme copy paste the line below into "Dashboard>General>Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save. **NOTE: Theme may not work when using reverse proxy**, check the bottom section of this readme for more info.
 
