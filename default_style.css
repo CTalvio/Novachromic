@@ -15,7 +15,8 @@
 
 /*Login background*/
 #loginPage {
-  background: url(https://imgur.com/S3WiZIM.png) !important; 
+  background: url(https://imgur.com/S3WiZIM.png) !important;
+}
 
 /*Theme the library scan progress bar*/
 progress {
