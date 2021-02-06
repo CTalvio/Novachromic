@@ -5,10 +5,6 @@
 :root {--accent: 255, 255, 255;}
 :root {--rounding: 0px;}
 
-.videoOsdBottom, .osdHeader {
-  background-color: rgba(255,255,255,.7) !important;
-}
-
 .navMenuOption:hover, .actionSheetMenuItem:hover {
   background-color: rgba(var(--accent),1) !important;
 }
