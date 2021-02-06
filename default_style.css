@@ -101,9 +101,6 @@ h4,
 .countIndicator,
 .playedIndicator,
 .mediaInfoItem,
-.osdPositionText,
-.osdDurationText,
-.endsAtText,
 .paper-icon-button-light {
     text-shadow: none !important;
     color: black !important;
@@ -129,8 +126,6 @@ h4,
 }
 
 /*Make various stuff light*/
-
-
 .raised.homeLibraryButton {
   background: rgba(255, 255, 255, 0.8) !important;
 }
@@ -184,7 +179,6 @@ h4,
 }
 
 /*Accenting*/
-
 .countIndicator {
   background: rgba(var(--accent),0.8);
 }
