@@ -143,7 +143,7 @@ h4,
     background: #cecece !important;
 }
 
-.playedIndicator, .innerCardFooter {
+.playedIndicator {
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -151,7 +151,7 @@ h4,
     background-color: #cecece !important;
 }
 
-.backgroundContainer, .dialog {
+.backgroundContainer, .dialog, .innerCardFooter {
     background-color: #cecece;
 }
 
