@@ -69,6 +69,8 @@ progress::-webkit-progress-value {
 
 
 /*Make various stuff back, remove text shading*/
+.endsAtText,
+.osdTextContainer,
 .listItemBodyText,
 .textareaLabelUnfocused,
 .paper-icon-button-light:hover,
@@ -125,6 +127,19 @@ h4,
 
 .cardOverlayContainer:hover, .dialog, .toast, .raised.homeLibraryButton:hover {
     box-shadow: none !important;
+}
+
+/*Theme media player*/
+.videoOsdBottom {
+    background: rgba(255,255,255,.7);
+    padding-top: 0;
+}
+.skinHeader-withBackground.osdHeader {
+    background: rgba(255,255,255,.7) !important;
+    height: 5em;
+}
+.mdl-slider-background-flex {
+    background: rgba(0,0,0,.45);
 }
 
 /*Make various stuff light*/
