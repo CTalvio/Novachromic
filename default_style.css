@@ -69,6 +69,7 @@ progress::-webkit-progress-value {
 
 
 /*Make various stuff back, remove text shading*/
+.listItemBodyText,
 .textareaLabelUnfocused,
 .paper-icon-button-light:hover,
 .raised.homeLibraryButton:hover,
