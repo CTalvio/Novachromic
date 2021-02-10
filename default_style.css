@@ -129,6 +129,10 @@ h4,
     box-shadow: none !important;
 }
 
+.alphaPickerButton {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 /*Theme media player*/
 .videoOsdBottom {
     background: rgba(255,255,255,.7);
