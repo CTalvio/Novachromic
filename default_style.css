@@ -143,6 +143,10 @@ h4,
 }
 
 /*Make various stuff light*/
+.emby-select-withcolor > option {
+    color: #333;
+    background: #cecece;
+}
 .raised.homeLibraryButton {
   background: rgba(255, 255, 255, 0.8) !important;
 }
