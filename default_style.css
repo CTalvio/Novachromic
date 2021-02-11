@@ -92,6 +92,7 @@ progress::-webkit-progress-value {
 #scheduledTasksPage span,
 .raised.homeLibraryButton:hover,
 body,
+a,
 h1,
 h2,
 h3,
@@ -105,6 +106,7 @@ h4,
 .countIndicator,
 .playedIndicator,
 .mediaInfoItem,
+.nowPlayingBarCurrentTime,
 .paper-icon-button-light {
     text-shadow: none !important;
     color: black !important;
