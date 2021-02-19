@@ -31,6 +31,15 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 This theme has some additional options, they can allow the use of a custom accent color, and more. These are added immediately after the default import line.
 
 
+### Alternate itempage
+
+A different itempage to the default of the theme, more reminiscient of "vanilla" as it does not remove the backdrop banner.
+
+```css
+@import url('https://ctalvio.github.io/Novachromic/alternate-itempage_style.css');
+```
+![eight](screenshots/8.png)
+
 ### Restore bottom bar style episode progress
 
 Don't like my transparent view progress overlay? Use this to go back to the old style.
