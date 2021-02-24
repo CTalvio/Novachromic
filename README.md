@@ -48,6 +48,14 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 @import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
 ```
 
+### Backdrop on mobile for 10.7.0
+
+This add-on turns the cover image on the mobile item page into a backdrop, since mobile on 10.7.0 has no backdrop for library items on mobile.
+
+```css
+@import url('https://ctalvio.github.io/Novachromic/backdrop-hack_style.css');
+```
+
 ### Modify rounding
 
 By adding this variable at the bottom, after the import lines, the rounding can be removed, reduced or increased. **Variables should always be last**.
