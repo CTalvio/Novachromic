@@ -68,7 +68,7 @@ progress::-webkit-progress-value {
 }
 
 
-/*Make various stuff back, remove text shading*/
+/*Make various stuff black, remove text shading*/
 .endsAtText,
 .osdTextContainer,
 .listItemBodyText,
@@ -133,6 +133,15 @@ h4,
 
 .alphaPickerButton {
     color: rgba(0, 0, 0, 0.5);
+}
+.playbackProgress>div {
+  background-color: rgba(0,0,0,0.75);
+}
+.transcodingProgress>div, .itemProgressBarForeground {
+  background-color: rgba(0,0,0,0.23);
+}
+.sessionAppInfo {
+    filter: brightness(10%);
 }
 
 /*Theme media player*/
@@ -243,6 +252,9 @@ h4,
 }
 
 /*Make various stuff light*/
+.sessionNowPlayingInnerContent {
+    background: rgba(220,220,220,.8);
+}
 .emby-select-withcolor > option {
     color: #333;
     background: #cecece;
