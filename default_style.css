@@ -143,6 +143,9 @@ h4,
 .sessionAppInfo {
     filter: brightness(10%);
 }
+#devicesPage .cardImage {
+    filter: brightness(20%);
+}
 
 /*Theme media player*/
 .videoOsdBottom {
