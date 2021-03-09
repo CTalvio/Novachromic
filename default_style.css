@@ -315,6 +315,12 @@ h4,
 }
 
 /*Accenting*/
+
+.ratingbutton-icon-withrating,
+.playstatebutton-icon-played {
+	color: rgba(var(--accent)) !important;
+}
+
 .countIndicator {
   background: rgba(var(--accent),0.8);
 }
