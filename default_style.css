@@ -66,7 +66,10 @@ progress::-webkit-progress-value {
 .backdropImage {
   filter: blur(22px) saturate(95%) contrast(15%) brightness(155%);
 }
-
+.infoBanner {
+    color: #000;
+    background: #eaeaea;
+}
 
 /*Make various stuff black, remove text shading*/
 .endsAtText,
