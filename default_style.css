@@ -70,6 +70,9 @@ progress::-webkit-progress-value {
     color: #000;
     background: #eaeaea;
 }
+#indexPage .transcodingProgress > div, .itemProgressBarForeground {
+    background-color: rgba(var(--accent),0.35);
+}
 
 /*Make various stuff black, remove text shading*/
 .endsAtText,
