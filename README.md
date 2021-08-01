@@ -1,5 +1,5 @@
 # Novachromic - deprecated
-### Superseded by the new [Ultrachromic](https://github.com/CTalvio/Kaleidochromic) theme
+### Superseded by the new [Ultrachromic](https://github.com/CTalvio/Ultrachromic) theme
 
 My third theme for Jellyfin media server, part of the "chromic" family. While a separate theme, it is built on top of my first theme, Monochromic. Therefore, please open any issues over there. Novachromic is essentially Monochromic, but with another layer of overrides on top. This makes maintenance easier. Note that I maintain my themes to be compatible with whatever version of Jellyfin I am currently using. Which is usually the latest stable release. You can therefore assume that using the theme on older versions may not work, but also that if a new release breaks something, that I will fix it.
 
